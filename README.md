@@ -27,10 +27,8 @@ After you're finished please remove all the comments and instructions!
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <img src="https://github.com/microverseinc/curriculum-rails/blob/main/capstone/images/erd_diagram.png" alt="logo" width="140"  height="auto" />
   <br/>
-
-  <h3><b>Microverse README Template</b></h3>
 
 </div>
 
@@ -60,29 +58,26 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+# 📖 [rubyonrails_capstone_project] <a name="about-project"></a>
 
-**[your_project__name]** is a...
+
+**[Budget App]** is a fullstack web application built using ROR and postgresql database. The app is a budget tracker that helps users track theor budgets and expenditures...
+
+![mobile (1)](https://user-images.githubusercontent.com/98466955/222902322-59c71977-20fd-4a13-811a-ecb74df4acf5.png)
+![mobile (2)](https://user-images.githubusercontent.com/98466955/222902355-0c3b82e7-7896-4e44-97ef-df50264b406e.png)
+![mobile](https://user-images.githubusercontent.com/98466955/222902366-f22fc638-c3c0-40aa-a582-b5a3c6c63ed6.png)
+
+
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
 <details>
   <summary>Server</summary>
   <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
+    <li><a href="https://expressjs.com/">Rails</a></li>
   </ul>
 </details>
 
@@ -97,11 +92,8 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[User authentication]**
+- **[Relationships between different tables]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -109,17 +101,13 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
-- [Live Demo Link](https://google.com)
+- [Live Demo Link]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
-> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
@@ -137,7 +125,7 @@ Example command:
 
 ### Setup
 
-Clone this repository to your desired folder:
+Clone this repository to your desired folder: https://github.com/jaamanu/rubyonrails-capstone-project.git
 
 <!--
 Example commands:
@@ -150,7 +138,7 @@ Example commands:
 
 ### Install
 
-Install this project with:
+Install this project with: `bundle install`
 
 <!--
 Example command:
@@ -163,7 +151,7 @@ Example command:
 
 ### Usage
 
-To run the project, execute the following command:
+To run the project, execute the following command: `rails serrver or rails s`
 
 <!--
 Example command:
@@ -175,10 +163,10 @@ Example command:
 
 ### Run tests
 
-To run tests, run the following command:
+To run tests, run the following command: Bundle exec rspec ./spec
 
 <!--
-Example command:
+Example command: `rspec`
 
 ```sh
   bin/rails test test/models/article_test.rb
@@ -187,7 +175,7 @@ Example command:
 
 ### Deployment
 
-You can deploy this project using:
+You can deploy this project using: render
 
 <!--
 Example:
@@ -203,19 +191,14 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
+
 > Mention all of the collaborators of this project.
 
-👤 **Author1**
+👤 **JAMES ASIBEY MANU**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@jaamanu](https://github.com/jaamanu)
+- Twitter: [@jamesasibeymanu](https://twitter.com/jamesasibeymanu)
+- LinkedIn: [jamesasibeymanu](https://linkedin.com/in/jamesasibeymanu)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -223,11 +206,7 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] A chart to calculate your spendings based on your current income
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -245,9 +224,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+If you like this project, you will also love to give it a star and you can also connect with me for any open opportunity...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -255,9 +232,12 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
 
 I would like to thank...
+
+- Gregoire Vella on Behance whose beautiful design was used to make this project possible [https://www.behance.net/gallery/19759151/Snapscan-iOs-design-and-branding?tracking_source=].
+
+- Microverse, for giving me the opportunity to learn and grow my skills more and more in order for me to meet industry standards
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -265,15 +245,13 @@ I would like to thank...
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
+- **[How was the authentication setup?]**
 
-- **[Question_1]**
+  - [Devise gem was used to authenticate the application]
 
-  - [Answer_1]
+- ** Can I make contributions to this project? **
 
-- **[Question_2]**
-
-  - [Answer_2]
+  - Yes! We are always open to contributions and suggestions from anyone and everyone!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -282,7 +260,5 @@ I would like to thank...
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
