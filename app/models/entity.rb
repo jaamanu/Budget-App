@@ -1,8 +1,10 @@
-class Entity < ApplicationRecord
-    belongs_to :user, class_name: "User"
-    has_many :entity_groups
-    has_many :groups, through: :entity_groups
+# frozen_string_literal: true
 
-    validates :name, presence: true
-    validates :amount,numericality: { only_integer: true, greater_than_or_equal_to: 0 }
+class Entity < ApplicationRecord
+  belongs_to :user, class_name: 'User'
+  has_many :entity_groups
+  has_many :groups, through: :entity_groups
+
+  validates :name, presence: true
+  validates :amount, numericality: { only_integer: true, greater_than_or_equal_to: 0 }
 end
