@@ -58,7 +58,9 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Budget app] <a name="about-project"></a>
+
+# 📖 [rubyonrails_capstone_project] <a name="about-project"></a>
+
 
 **[Budget App]** is a fullstack web application built using ROR and postgresql database. The app is a budget tracker that helps users track theor budgets and expenditures...
 
@@ -189,7 +191,11 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-👥 Authors JAMES ASIBEY MANU
+
+> Mention all of the collaborators of this project.
+
+👤 **JAMES ASIBEY MANU**
+
 - GitHub: [@jaamanu](https://github.com/jaamanu)
 - Twitter: [@jamesasibeymanu](https://twitter.com/jamesasibeymanu)
 - LinkedIn: [jamesasibeymanu](https://linkedin.com/in/jamesasibeymanu)
