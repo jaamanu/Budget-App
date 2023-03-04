@@ -85,6 +85,4 @@ test:
 #
 production:
   <<: *default
-  database: rubyonrails_capstone_project_production
-  username: rubyonrails_capstone_project
-  password: <%= ENV["RUBYONRAILS_CAPSTONE_PROJECT_DATABASE_PASSWORD"] %>
+  url: <%= ENV['DATABASE_URL'] %>
