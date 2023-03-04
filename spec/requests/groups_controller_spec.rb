@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 RSpec.describe GroupsController, type: :request do
   include Devise::Test::IntegrationHelpers
   let(:user) { User.create(id: 1, name: 'ashanti', email: 'ashanti@gmail.com', password: 'sfhdjgjabjbge') }
